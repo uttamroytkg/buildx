@@ -1,0 +1,133 @@
+@media all and (max-width: 1200px){
+	.container{
+		padding: 0 2rem;
+		box-sizing: border-box;
+	}
+}
+
+
+@media all and (max-width: 990px){
+	.contact-area{
+		flex-direction: column;
+		text-align: center;
+		padding-top: 2rem;
+	}
+	.embed-area{
+		flex-direction: column;
+	}
+	.embed-area .btn{
+		margin: auto;
+		margin-top: 2rem;
+	}
+}
+
+
+@media all and (max-width: 767px){
+	.banner-content h1{
+		font-size: 5rem;
+	}
+	.services{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.simgle-feedback:first-child{
+		margin-bottom: 4rem;
+	}
+	.partners{
+		justify-items: center;
+	}
+	.single-count{
+		margin-bottom: 2rem;
+	}
+	.footer-area{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.footer-bottom{
+		flex-direction: column;
+	}
+	.footer-menu ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.work-menu ul{
+		flex-wrap: wrap;
+	}
+
+	/* Isotop Mixitup  */
+	.single-work{
+		width: calc(50% - 5px);
+	}
+
+	/* Count */
+	.count-area {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+
+@media all and (max-width: 575px){
+	.top-menu{
+		flex-direction: column;
+	}
+	.menu {
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+		right: -30%;
+	}
+	.munu-area .menu-i{
+		display: block;
+	}
+	.banner-content h1{
+		font-size: 4rem;
+	}
+	.services{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.general-container{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.footer-area{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.top-menu p{
+		padding-top: 2rem;
+	}
+
+	/* Isotop Mixitup  */
+	.single-work{
+		width: calc(100% - 5px);
+	}
+
+	/* Count */
+	.count-area {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+
+@media all and (max-width: 450px){
+	.contact{
+		flex-direction: column;
+	}
+	.mail{
+		margin-right: 0;
+	}
+	.count-area{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.service-heading h1{
+		font-size: 3.5rem;
+	}
+	.single-general h1 a{
+		font-size: 2rem;
+	}
+	.banner-content {
+		padding: 10rem 0;
+	}
+	.banner-content h1{
+		line-height: 6rem;
+	}
+	.top-menu a{
+		padding: 1rem 0;
+	}
+}
